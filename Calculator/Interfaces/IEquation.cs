@@ -12,14 +12,7 @@ namespace Calculator.Interfaces
     }
 
 
-    public class Addition : IEquation
-    {
-        public double Perform(double num1, double num2)
-        {
-            return num1 + num2;
-        }
-    }
-
+    //Incomment below to finish
     // public class Subtraction : IEquation
     // {
     //     public double Perform(double num1, double num2)
