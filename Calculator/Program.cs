@@ -20,5 +20,10 @@ double diff=sub.Perform(num1, num2);
 
 Console.WriteLine("The Diff is : " + diff);
 
+Multiplication prod = new Multiplication();
+double product = prod.Perform(num1, num2);
+
+Console.WriteLine("The Diff is : " + prod);
+
 
 
