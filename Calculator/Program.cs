@@ -15,15 +15,11 @@ Addition add = new Addition();
 double sum = add.Perform(num1, num2);
 Console.WriteLine("The sum is: " + sum);
 
-Subtraction sub = new Subtraction();
-double diff=sub.Perform(num1, num2);
+//Substraction & multiplication
 
-Console.WriteLine("The Diff is : " + diff);
-
-Multiplication prod = new Multiplication();
-double product = prod.Perform(num1, num2);
-
-Console.WriteLine("The Diff is : " + prod);
+Division div = new Division();
+double quotient = div.Perform(num1, num2);
+Console.WriteLine("The quotient is: " + quotient);
 
 
 
